@@ -30,3 +30,57 @@ An automated trading bot for Polymarket's "Bitcoin Up or Down – 5 Minutes" mar
 ```bash
 git clone https://github.com/winzzy12/polymarket_ai_bot.git
 cd polymarket-ai-bot
+```
+
+python -m venv venv
+
+# On Windows
+```bash
+venv\Scripts\activate
+```
+# On Linux/Mac
+```bash
+source venv/bin/activate
+```
+# Install dependencies
+```bash
+pip install -r requirements.txt
+```
+# Create a .env file in the project root
+```bash
+# Wallet Configuration
+WALLET_PRIVATE_KEY=your_private_key_here
+WALLET_ADDRESS=your_wallet_address_here
+
+# OpenAI Configuration
+OPENAI_API_KEY=your_openai_api_key_here
+```
+
+# Run the bot
+```bash
+python bot.py
+```
+
+# Monitor logs
+
+# View live logs
+```bash
+tail -f logs/trading_log.txt
+```
+
+# On Windows
+```Bash
+Get-Content logs/trading_log.txt -Wait
+```
+
+# Risk Management Settings
+```bash
+DEFAULT_TRADE_SIZE_PERCENT = 0.02      # 2% of balance
+HIGH_CONFIDENCE_TRADE_SIZE = 0.04       # 4% on high confidence
+MAX_TRADES_PER_HOUR = 10                # Maximum hourly trades
+DAILY_STOP_LOSS_PERCENT = 0.10          # 10% daily loss limit
+DAILY_PROFIT_TARGET_PERCENT = 0.20      # 20% daily profit target
+```
+
+
+
