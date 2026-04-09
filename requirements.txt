@@ -1,0 +1,26 @@
+# Core dependencies
+requests==2.31.0
+pandas==2.0.3
+numpy==1.24.3
+pandas-ta==0.3.14b0
+
+# Web3 and blockchain
+web3==6.11.1
+
+# AI and ML
+openai==0.28.0
+
+# Utilities
+python-dotenv==1.0.0
+colorama==0.4.6
+
+# Optional - for advanced features
+ccxt==4.1.22
+aiohttp==3.8.5
+websockets==11.0.3
+
+# Data validation
+pydantic==2.3.0
+
+# Scheduling (alternative to time.sleep)
+schedule==1.2.0
