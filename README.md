@@ -28,5 +28,5 @@ An automated trading bot for Polymarket's "Bitcoin Up or Down – 5 Minutes" mar
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/polymarket-ai-bot.git
+git clone https://github.com/winzzy12/polymarket_ai_bot.git
 cd polymarket-ai-bot
